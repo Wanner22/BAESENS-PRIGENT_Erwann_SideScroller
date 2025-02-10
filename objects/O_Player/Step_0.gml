@@ -131,6 +131,17 @@ if(hp <= 0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDArgument : "var" "hp"
 	hp = 0;
 
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 53B69837
+	/// @DnDParent : 58C49976
+	/// @DnDArgument : "xpos" "camera_get_view_border_x(view_camera[0]) "
+	/// @DnDArgument : "ypos" "camera_get_view_border_y(view_camera[0])"
+	/// @DnDArgument : "objectid" "O_Ecran_mort"
+	/// @DnDArgument : "layer" ""Ecran_mort""
+	/// @DnDSaveInfo : "objectid" "O_Ecran_mort"
+	instance_create_layer(camera_get_view_border_x(view_camera[0]) , camera_get_view_border_y(view_camera[0]), "Ecran_mort", O_Ecran_mort);
+
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
 	/// @DnDHash : 53CA2525
