@@ -93,13 +93,13 @@ if(sprint == true){	/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 	/// @DnDVersion : 1
 	/// @DnDHash : 3366CA99
 	/// @DnDParent : 43E82EE8
-	/// @DnDArgument : "x" "camera_get_view_border_x(view_camera[0]) + 2900"
-	/// @DnDArgument : "y" "camera_get_view_border_y(view_camera[0])"
-	/// @DnDArgument : "xscale" "5"
-	/// @DnDArgument : "yscale" "5"
+	/// @DnDArgument : "x" "camera_get_view_border_x(view_camera[0]) + 2800"
+	/// @DnDArgument : "y" "camera_get_view_border_y(view_camera[0]) - 20"
+	/// @DnDArgument : "xscale" "7"
+	/// @DnDArgument : "yscale" "7"
 	/// @DnDArgument : "caption" ""Stamina : ""
 	/// @DnDArgument : "text" "stamina"
-	draw_text_transformed(camera_get_view_border_x(view_camera[0]) + 2900, camera_get_view_border_y(view_camera[0]), string("Stamina : ") + string(stamina), 5, 5, 0);
+	draw_text_transformed(camera_get_view_border_x(view_camera[0]) + 2800, camera_get_view_border_y(view_camera[0]) - 20, string("Stamina : ") + string(stamina), 7, 7, 0);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Gradient_Rect
 	/// @DnDVersion : 1
