@@ -118,11 +118,26 @@ view_set_camera(1, 1);
 /// @DnDHash : 58C49976
 /// @DnDArgument : "var" "hp"
 /// @DnDArgument : "op" "3"
-if(hp <= 0){	/// @DnDAction : YoYo Games.Game.Restart_Game
+if(hp <= 0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 30158DA8
+	/// @DnDHash : 5E8B639B
 	/// @DnDParent : 58C49976
-	game_restart();}
+	instance_destroy();
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 18354D07
+	/// @DnDParent : 58C49976
+	/// @DnDArgument : "var" "hp"
+	hp = 0;
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 53CA2525
+	/// @DnDParent : 58C49976
+	/// @DnDArgument : "code" "layer_set_visible("Secousse", 0)$(13_10)layer_set_visible("Vignette", 0)$(13_10)"
+	layer_set_visible("Secousse", 0)
+	layer_set_visible("Vignette", 0)}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

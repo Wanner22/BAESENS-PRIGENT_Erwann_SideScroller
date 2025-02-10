@@ -6,8 +6,8 @@
   "name":"O_Plantes_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Deco",
+    "path":"folders/Objects/Deco.yy",
   },
   "parentObjectId":null,
   "persistent":false,

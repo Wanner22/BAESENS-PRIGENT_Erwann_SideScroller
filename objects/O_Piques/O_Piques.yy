@@ -6,8 +6,8 @@
   "name":"O_Piques",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Pieges",
+    "path":"folders/Objects/Pieges.yy",
   },
   "parentObjectId":null,
   "persistent":false,

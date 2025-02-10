@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"Barre_de_vie__2_",
+  "%Name":"S_Barre_de_vie_2",
   "bboxMode":0,
   "bbox_bottom":615,
   "bbox_left":66,
@@ -21,19 +21,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"d579d600-45ba-4c07-a078-f3af735fe6e5","blendMode":0,"displayName":"default","isLocked":false,"name":"d579d600-45ba-4c07-a078-f3af735fe6e5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Barre_de_vie__2_",
+  "name":"S_Barre_de_vie_2",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Barre de vie",
+    "path":"folders/Sprites/UI/Barre de vie.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Barre_de_vie__2_",
+    "%Name":"S_Barre_de_vie_2",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Barre_de_vie__2_",
+    "name":"S_Barre_de_vie_2",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b0bbd867-f2c6-4345-949b-1ef544b7396f","path":"sprites/Barre_de_vie__2_/Barre_de_vie__2_.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b0bbd867-f2c6-4345-949b-1ef544b7396f","path":"sprites/S_Barre_de_vie_2/S_Barre_de_vie_2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"bbab83b7-2d0c-4527-a7ef-7b8c77ce6f86","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

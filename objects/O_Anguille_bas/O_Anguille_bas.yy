@@ -10,8 +10,8 @@
   "name":"O_Anguille_bas",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Anguilles",
+    "path":"folders/Objects/Pieges/Anguilles.yy",
   },
   "parentObjectId":null,
   "persistent":false,

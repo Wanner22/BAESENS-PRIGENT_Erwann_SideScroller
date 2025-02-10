@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"Barre_de_vie__3_",
+  "%Name":"S_Barre_de_vie_1",
   "bboxMode":0,
   "bbox_bottom":615,
   "bbox_left":66,
@@ -12,28 +12,28 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1e6e2401-972d-413d-a579-ba61ff4fe8f5","name":"1e6e2401-972d-413d-a579-ba61ff4fe8f5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f4fffa02-f53f-4553-8f26-921f9d874c90","name":"f4fffa02-f53f-4553-8f26-921f9d874c90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1000,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"491dc524-49aa-4b04-8bc5-b4e5f80a6398","blendMode":0,"displayName":"default","isLocked":false,"name":"491dc524-49aa-4b04-8bc5-b4e5f80a6398","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"11dfbef1-645f-4090-b2e4-57e97367aedb","blendMode":0,"displayName":"default","isLocked":false,"name":"11dfbef1-645f-4090-b2e4-57e97367aedb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Barre_de_vie__3_",
+  "name":"S_Barre_de_vie_1",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Barre de vie",
+    "path":"folders/Sprites/UI/Barre de vie.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Barre_de_vie__3_",
+    "%Name":"S_Barre_de_vie_1",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Barre_de_vie__3_",
+    "name":"S_Barre_de_vie_1",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e6e2401-972d-413d-a579-ba61ff4fe8f5","path":"sprites/Barre_de_vie__3_/Barre_de_vie__3_.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"70a81d78-9250-4f45-8f95-55042c3d8b8e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f4fffa02-f53f-4553-8f26-921f9d874c90","path":"sprites/S_Barre_de_vie_1/S_Barre_de_vie_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"38aa999d-e21d-4cf4-a950-c27e93db0270","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

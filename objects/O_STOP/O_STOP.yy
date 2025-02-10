@@ -6,8 +6,8 @@
   "name":"O_STOP",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Pancartes",
+    "path":"folders/Objects/Pancartes.yy",
   },
   "parentObjectId":null,
   "persistent":false,
