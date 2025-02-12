@@ -118,11 +118,12 @@ view_set_camera(1, 1);
 /// @DnDHash : 58C49976
 /// @DnDArgument : "var" "hp"
 /// @DnDArgument : "op" "3"
-if(hp <= 0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+if(hp <= 0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
-	/// @DnDHash : 5E8B639B
+	/// @DnDHash : 4C2CF043
 	/// @DnDParent : 58C49976
-	instance_destroy();
+	sprite_index = noone;
+	image_index = 0;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -131,16 +132,23 @@ if(hp <= 0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDArgument : "var" "hp"
 	hp = 0;
 
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 	/// @DnDVersion : 1
-	/// @DnDHash : 53B69837
+	/// @DnDHash : 7311E6CE
 	/// @DnDParent : 58C49976
-	/// @DnDArgument : "xpos" "camera_get_view_border_x(view_camera[0]) "
-	/// @DnDArgument : "ypos" "camera_get_view_border_y(view_camera[0])"
-	/// @DnDArgument : "objectid" "O_Ecran_mort"
-	/// @DnDArgument : "layer" ""Ecran_mort""
-	/// @DnDSaveInfo : "objectid" "O_Ecran_mort"
-	instance_create_layer(camera_get_view_border_x(view_camera[0]) , camera_get_view_border_y(view_camera[0]), "Ecran_mort", O_Ecran_mort);
+	/// @DnDArgument : "obj" "O_Ecran_mort"
+	/// @DnDArgument : "not" "1"
+	/// @DnDSaveInfo : "obj" "O_Ecran_mort"
+	var l7311E6CE_0 = false;l7311E6CE_0 = instance_exists(O_Ecran_mort);if(!l7311E6CE_0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 53B69837
+		/// @DnDParent : 7311E6CE
+		/// @DnDArgument : "xpos" "camera_get_view_border_x(view_camera[0]) "
+		/// @DnDArgument : "ypos" "camera_get_view_border_y(view_camera[0])"
+		/// @DnDArgument : "objectid" "O_Ecran_mort"
+		/// @DnDArgument : "layer" ""Ecran_mort""
+		/// @DnDSaveInfo : "objectid" "O_Ecran_mort"
+		instance_create_layer(camera_get_view_border_x(view_camera[0]) , camera_get_view_border_y(view_camera[0]), "Ecran_mort", O_Ecran_mort);}
 
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
@@ -148,7 +156,14 @@ if(hp <= 0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDParent : 58C49976
 	/// @DnDArgument : "code" "layer_set_visible("Secousse", 0)$(13_10)layer_set_visible("Vignette", 0)$(13_10)"
 	layer_set_visible("Secousse", 0)
-	layer_set_visible("Vignette", 0)}
+	layer_set_visible("Vignette", 0)
+
+	/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 36F72B1F
+	/// @DnDParent : 58C49976
+	speed = 0;
+	direction = 0;}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
